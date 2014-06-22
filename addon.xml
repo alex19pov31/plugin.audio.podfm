@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.audio.podfm"
+       name="podfm.ru"
+       version="0.0.1"
+       provider-name="Nesterov Alexander">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="audio" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>podfm.ru</summary>
+    <description>
+    Подкасты с сайта podfm.ru
+    </description>
+    <source>https://github.com/alex19pov31/plugin.audio.podfm.git</source>
+    <email>alex19pov31@gmail.com</email>
+    <platform>all</platform>
+  </extension>
+</addon>
